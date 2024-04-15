@@ -1,0 +1,71 @@
+:root {
+  --vp-c-gray-1: #f0f0f0; /* Light gray for backgrounds */
+  --vp-c-gray-2: #d9d9d9; /* Medium gray for borders */
+  --vp-c-gray-3: #bfbfbf; /* Dark gray for text */
+  --vp-c-gray-soft: #f7f7f7; /* Soft gray for hover states and accents */
+
+  --vp-c-indigo-1: #6574cd; /* Soft indigo for less prominent elements */
+  --vp-c-indigo-2: #5661b3; /* Medium indigo for interactive elements */
+  --vp-c-indigo-3: #4550a4; /* Dark indigo for call to actions */
+  --vp-c-indigo-soft: #e6e8ff; /* Very soft indigo for backgrounds or accents */
+
+  --vp-c-yellow-1: #fcd34d; /* Bright yellow for attention and highlights */
+  --vp-c-yellow-2: #fbbf24; /* Rich yellow for warning and active states */
+  --vp-c-yellow-3: #f59e0b; /* Deep yellow for important warnings */
+  --vp-c-yellow-soft: #fffbeb; /* Soft yellow for background highlights */
+
+  --vp-c-red-1: #f87171; /* Soft red for errors and danger */
+  --vp-c-red-2: #ef4444; /* Medium red for important errors or actions */
+  --vp-c-red-3: #d32f2f; /* Dark red for critical issues */
+  --vp-c-red-soft: #feedee; /* Very soft red for error backgrounds or accents */
+
+  --vp-c-white: #ffffff; /* Pure white for text and backgrounds */
+
+  /* Component: Button */
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: #e57373; /* Deeper soft red for the button background */
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: #ef5350; /* A brighter and deeper red for hover state */
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: var(--vp-c-white);
+  --vp-button-brand-active-bg: #d32f2f; /* An even deeper red for active state */
+
+  /* Component: Home */
+  --vp-home-hero-name-color: var(
+    --vp-c-yellow-1
+  ); /* Optimized sunny color for text */
+  --vp-home-hero-name-shadow: 0 2px 4px rgba(133, 49, 49, 0.5); /* Text shadow for better readability */
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #f59e0b 30%,
+    #fcd34d
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #fcd34d 50%,
+    #f59e0b 50%
+  );
+  --vp-home-hero-image-filter: blur(44px);
+
+  /* Responsive adjustments for hero image filter */
+  @media (min-width: 640px) {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+
+  @media (min-width: 960px) {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+
+  /* Component: Custom Block */
+  --vp-custom-block-tip-border: var(--vp-c-yellow-2);
+  --vp-custom-block-tip-text: var(--vp-c-gray-3);
+  --vp-custom-block-tip-bg: var(--vp-c-yellow-soft);
+  --vp-custom-block-tip-code-bg: var(--vp-c-yellow-soft);
+
+  /* Component: Algolia */
+  .DocSearch {
+    --docsearch-primary-color: var(--vp-c-yellow-2) !important;
+  }
+}

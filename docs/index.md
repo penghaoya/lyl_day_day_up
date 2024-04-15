@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 上岸
-      link: /nav/1.公考是什么
+      link: /nav/上岸整套流程概述
 
 features:
   - title: 相关信息

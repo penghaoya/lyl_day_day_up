@@ -17,7 +17,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主页", link: "/" },
-      { text: "考公相关问题", link: "/nav" },
+      {
+        text: "相关备考信息",
+        link: "/nav/上岸整套流程概述",
+      },
+      {
+        text: "考公相关问题",
+        link: "/question/编制概述：行政编、事业编、参公事业编、三支一扶、人事代理、公益岗位等",
+      },
     ],
 
     sidebar: {

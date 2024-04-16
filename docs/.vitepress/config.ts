@@ -37,5 +37,9 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
+    footer: {
+      message: "Elevate Your Learning, Every Single Day",
+      copyright: "Goes Ashore © 2025-Luckily-Girl-Lyl.",
+    },
   },
 });

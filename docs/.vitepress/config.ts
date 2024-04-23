@@ -27,11 +27,31 @@ export default defineConfig({
       },
     ],
     sidebar: {
-      "/nav": await buildSidebar(path.resolve(__dirname, "./../nav"), "/nav"),
+      "/nav": [
+        ...(await buildSidebar(path.resolve(__dirname, "./../nav"), "/nav")),
+      ],
       "/question": await buildSidebar(
         path.resolve(__dirname, "./../question"),
         "/question"
       ),
+      "/note": [
+        {
+          text: "学习复盘",
+          collapsed: true,
+          items: [
+            {
+              text: "如何复盘",
+              link: "/note/recovery/1.如何复盘",
+              collapsed: true,
+            },
+            {
+              text: "复盘示例",
+              link: "/note/recovery/2.复盘示例",
+              collapsed: true,
+            },
+          ],
+        },
+      ],
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },

@@ -26,7 +26,6 @@ export default defineConfig({
         link: "/question/编制概述：行政编、事业编、参公事业编、三支一扶、人事代理、公益岗位等",
       },
     ],
-
     sidebar: {
       "/nav": await buildSidebar(path.resolve(__dirname, "./../nav"), "/nav"),
       "/question": await buildSidebar(

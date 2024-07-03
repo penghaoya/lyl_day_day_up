@@ -34,6 +34,19 @@ export default defineConfig({
         path.resolve(__dirname, "./../question"),
         "/question"
       ),
+      "/upup": [
+        {
+          text: "小红书",
+          collapsed: true,
+          items: [
+            {
+              text: "小红书达人变现",
+              link: "/upup/xaiohongbook/小红书达人变现",
+              collapsed: true,
+            },
+          ],
+        },
+      ],
       "/note": [
         {
           text: "学习复盘",

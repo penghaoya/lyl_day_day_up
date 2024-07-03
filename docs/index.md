@@ -24,4 +24,8 @@ features:
     icon: 🌞
     details: 笔记，资料
     link: /note/recovery/1.如何复盘
+  - title: 自媒体
+    icon: 💰
+    details: 自媒体
+    link: /upup/
 ---

@@ -36,12 +36,12 @@ export default defineConfig({
       ),
       "/upup": [
         {
-          text: "小红书",
+          text: "小红书达人变现",
           collapsed: true,
           items: [
             {
               text: "小红书达人变现",
-              link: "/upup/xaiohongbook/小红书达人变现",
+              link: "/upup/xaiohongbook/",
               collapsed: true,
             },
           ],
